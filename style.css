@@ -157,15 +157,17 @@ footer {
 
 @media only screen and (max-width: 700px) {
     h1 {
-        font-size: 3rem;
+        font-size: 1.7rem;
+        text-indent: 1.7rem;
     }
 
     h2 {
-        font-size: 1rem;
+        font-size: 0.7rem;
+        letter-spacing: 1rem;
     }
 
     hr {
-        width: 25rem;
+        width: 20rem;
     }
 
     section {
@@ -173,5 +175,29 @@ footer {
         padding-right: 5%;
     }
 
+    ul {
+        padding: 0.2rem;
+        gap: 1rem;
+    }
 
+    p {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .martin_linge {
+        float: none;
+    }
+
+    #mail {
+        font-size: 8rem;
+    }
+
+    .p_center {
+        text-align: center;
+    }
+
+    .social {
+        font-size: 1.5rem;
+    }
 }
