@@ -154,3 +154,24 @@ footer {
 .social:hover {
     color: #A2A378;
 }
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    hr {
+        width: 25rem;
+    }
+
+    section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+}
