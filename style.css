@@ -1,3 +1,4 @@
+/* flexbox setup to cover whole page */
 html, body {
     margin: 0;
     height: 100%;
@@ -6,6 +7,7 @@ html, body {
     font-family: 'Saira', sans-serif;
 }
 
+/* header & nav container, fixed position to stay on top on page */
 .header_nav {
     position: fixed;
     width: 100%;
@@ -28,6 +30,7 @@ h1, h2 {
     vertical-align: middle;
 }
 
+/* text-indent to get everyting to center after using letter-spacing */
 h1 {
     font-size: 5rem;
     color: #E5F9DB;
@@ -47,6 +50,7 @@ h3 {
     text-align: center;
 }
 
+/* style to make th hr fit better and look better */
 hr {
     position: relative;
     width: 40rem;
@@ -62,6 +66,7 @@ nav {
     width: 100%;
 }
 
+/* this is for the navbar layout */
 ul {
     display: flex;
     justify-content: center;
@@ -81,6 +86,7 @@ a:hover {
     color: #83764F;
 }
 
+/* this is for the main and the sections to show in main */
 main {
     flex: 1;
     overflow-y: auto;
@@ -99,6 +105,7 @@ p {
     font-size: 1rem;
 }
 
+/* hr for main, a bit shorter and diffrent color */
 .hr_main {
     position: relative;
     width: 20rem;
@@ -108,6 +115,7 @@ p {
     background: repeating-linear-gradient(90deg, #83764F, #83764F 5px, transparent 5px, transparent 10px);
 }
 
+/* styling for the pictures */
 .profile_picture, .martin_linge {
     float: left;
     height: 200px;
@@ -130,6 +138,7 @@ p {
     text-align: center;
 }
 
+/* style for the @ symbol under contact */
 #mail {
     color: black;
     font-size: 15rem;
@@ -137,6 +146,7 @@ p {
     padding: 0;
 }
 
+/* styles for the footer and the social icons */
 footer {
     display: flex;
     background-color: #A0D8B3;
@@ -155,6 +165,7 @@ footer {
     color: #A2A378;
 }
 
+/* rules for small screens, just smaller sizes and text-align justify for p */
 @media only screen and (max-width: 700px) {
     h1 {
         font-size: 1.7rem;
